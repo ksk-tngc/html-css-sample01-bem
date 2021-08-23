@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+}
+
+/* --------------- ヘッダー --------------- */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 4px 5px;
+}
+
+.header__title {
+  font-size: larger;
+  margin-left: 10px;
+}
+
+.header__title-icon {
+  margin-right: 8px;
+}
+
+.header__logout {
+  text-decoration: none;
+  color: white;
+  margin-right: 15px;
+  font-size: 0.9rem;
+}
+
+.header__logout-icon {
+  margin-right: 8px;
+}
+
+/* --------------- コンテナ --------------- */
+.container {
+  display: flex;
+}
+
+/* --------------- サイドバー --------------- */
+.sidebar {
+  padding: 15px;
+  background-color: #f8f9fa;
+  width: 180px;
+  height: 100vh;
+}
+
+.sidemenu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidemenu__item {
+  padding: 11px 17px;
+}
+
+.sidemenu__item--active {
+  background-color: royalblue;
+  border-radius: 5px;
+}
+
+.sidemenu__link {
+  text-decoration: none;
+}
+
+.sidemenu__link--active {
+  color: white;
+}
+
+.sidemenu__link-icon {
+  margin-right: 8px;
+}
+
+/* --------------- コンテンツ --------------- */
+.content {
+  padding: 22px;
+  flex-grow: 1;
+}
+
+.content__title {
+  margin-top: 0;
+  font-weight: normal;
+  font-size: 1.6rem;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 8px;
+}
